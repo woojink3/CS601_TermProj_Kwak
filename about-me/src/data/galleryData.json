@@ -1,0 +1,13 @@
+[
+    {"id": "001", "name":"Chamber Choir", "description": "This is me and a couple of my friends before our school choir concert.", "image": "/images/choir.jpg"},
+    {"id": "002", "name":"Senior Trip to Disney World", "description": "This is our high school senior trip to Disney World.", "image": "/images/disney.jpg"},
+    {"id": "003", "name":"High School Graduation", "description": "This is my high school graduation photo.", "image": "/images/graduation.jpg"},
+    {"id": "004", "name":"Halloween Party", "description": "A Halloween party with friends.", "image": "/images/halloween.jpg"},
+    {"id": "005", "name":"Art 1", "description": "This is a Instagram profile picture I drew for my Instragram art account.", "image": "/images/art1.jpg"},
+    {"id": "006", "name":"Art 2", "description": "A simple design I did for a digital birthday card I made for my mother.", "image": "/images/art2.jpg"},
+    {"id": "007", "name":"Art 3", "description": "One of my early artworks I did during college.", "image": "/images/art3.png"},
+    {"id": "008", "name":"Tiki 1", "description": "Tiki looking up. She is less than 6 months old in this photo.", "image": "/images/tiki1.jpg"},
+    {"id": "009", "name":"Tiki 2", "description": "Tiki resting.", "image": "/images/tiki2.jpg"},
+    {"id": "010", "name":"Tiki 3", "description": "Playing ball with Tiki.", "image": "/images/tiki3.jpg"},
+    {"id": "011", "name":"Tiki 4", "description": "Tiki trying to get my attention.", "image": "/images/tiki4.jpg"}
+]

@@ -1,0 +1,85 @@
+.interest-container {
+    text-align: center;
+}
+
+.interest-container h2 {
+    position: relative;
+}
+
+.interest-items {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+}
+
+.gaming {
+    text-align: center;
+    width: 400px;
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gaming img-container {
+    margin-bottom: 10px;
+}
+
+.digital-art {
+    text-align: center;
+    width: 400px;
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.digital-art img-container {
+    margin-bottom: 10px;
+}
+
+
+.cook {
+    text-align: center;
+    width: 400px;
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cook img-container {
+    margin-bottom: 10px;
+}
+
+
+.vid {
+    text-align: center;
+    width: 400px;
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vid img-container {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .interest-items {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

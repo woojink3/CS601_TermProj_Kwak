@@ -1,0 +1,43 @@
+.photo-detail {
+    padding: 2rem 0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.detail-container {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.detailed-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.detail-info {
+    position: relative;
+    text-align: left;
+    flex: 1;
+    min-width: 300px;
+}
+
+.detail-info h2 {
+    color: rgb(64, 100, 134);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.description {
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}

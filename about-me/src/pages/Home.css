@@ -1,0 +1,82 @@
+.home {
+    text-align: center;
+}
+
+.head {
+    position: relative;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.head-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    filter: brightness(0.7);
+}
+
+.head-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    width: 90%;
+}
+
+.head h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-container {
+    display: inline-block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.profile-container img {
+    width: 230px;
+    transform: translate(-1%, -15%);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FFD700;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: transform 0.2s;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background-color: #ffea70;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.welcome-text {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+}
+
+@media (max-width: 768px) {
+    .head h2 {
+        font-size: 2rem;
+    }
+}
