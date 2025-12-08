@@ -59,7 +59,7 @@ To ensure a smoothe web experience, in addition to the default modules and react
 This website is created to give the user a little information about myself. Through out this website, I tell the user about my hobbies, my education life, my resume, and what I learned in this class "CS601".
 The website starts on the home page, welcoming the user. The header has the navigation links to other contents of my website. The link in the footer leads to a contact form where users can input
 their name, email, and an optional message. Most of the web content is uses React with the exception of the "CS601" content and the "Contact" form.
-The Contact and CS601 html are in the other branch of this git repository.
+The Contact and CS601 html are outside of this react app of this git repository.
 
 
 # Image Credit
