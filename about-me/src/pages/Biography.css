@@ -1,0 +1,21 @@
+.bio-container {
+    display:inline-block;
+}
+
+
+.bio-container h2 {
+    color: rgb(7, 46, 117);
+    text-align: center;
+}
+
+.bio-content {
+    border: 1px solid grey;
+    background-color: rgb(165, 207, 255);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.bio-content div {
+    text-align: center;
+}
+

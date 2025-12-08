@@ -16,7 +16,7 @@ const Biography: React.FC = ():any => {
     return (
         <div className='bio-container'>
             <h2>About Me</h2>
-            <div className='bio-content'>
+            <article className='bio-content'>
                 <p>My name is Woojin Kwak. I was born in Seoul, South Korea. I currently live in New Jersey and one fun thing about is that I have an adorable dog named "Tiki".</p>
                 <p>
                     I came to the United States when I was three years old and the first place I lived in was Pittsburgh, PA.
@@ -25,17 +25,17 @@ const Biography: React.FC = ():any => {
                     This club raised awareness for domestic violence and relationship abuse, and I enjoyed my time contributing to their events such as creating banners and videos.
                     I graduated from Montgomery High School during the year 2016. Afterwards, I attended William Paterson University for my first two years of college with my major undecided.
                 </p>
-                <p><WpLogo /></p>
+                <div><WpLogo /></div>
                 <p>
                     After my sophomore year, I transferred to Rutgers University and graduated with a bachelor's degree in Information Technology with a minor in Business Administration.
                     During my time at this institution, I had the pleasure of working on a couple of UI/UX projects, and join a club known as Creation of Game Society where I had a little exposure to game development.
                     Soon Covid-19 came hit and I had to finish the remainder of my semesters at home.
                 </p>
-                <p><RutgersLogo /></p>
+                <div><RutgersLogo /></div>
                 <p>
                     I am now a part-time student of Boston University, striving to earn Master's Degree in Software Development.
                 </p>
-            </div>
+            </article>
         </div>
     )
 };

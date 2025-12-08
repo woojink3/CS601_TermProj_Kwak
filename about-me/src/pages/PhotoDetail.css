@@ -26,6 +26,10 @@
 
 .detail-info {
     position: relative;
+    background-color: #d4e5f0;
+    border-radius: 20px;
+    padding: 1rem;
+    height: fit-content;
     text-align: left;
     flex: 1;
     min-width: 300px;

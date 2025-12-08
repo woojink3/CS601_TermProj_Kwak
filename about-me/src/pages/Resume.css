@@ -7,13 +7,17 @@
     left: 60%;
     width: 350px;
     text-align: right;
-    background-color: rgb(70, 127, 212);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .head2-content {
     font-size: 1.5rem;
     color: black;
+}
+
+.resume-container {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(213, 240, 241);
 }
 
 .resume-container h3 {
