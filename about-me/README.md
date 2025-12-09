@@ -74,4 +74,5 @@ YouTube image by Alexander Shatov https://unsplash.com/photos/red-and-white-squa
 
 # References
 CS601 Materials Module 1 - 6
+CS601 Live Recordings
 w3schools.com for syntax help
